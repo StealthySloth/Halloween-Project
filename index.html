@@ -10,8 +10,9 @@
   <a-scene>
     <a-assets>
       <img id="catacombs" src="Catacombs.jpg">
+      <audio id="ambience" src="ambience.mp3"></audio>
     </a-assets>
-    <a-sky src="#catacombs"></a-sky>
+    <a-sky src="#catacombs" sound="src: #ambience; autoplay: true; loop: true"></a-sky>
     <a-entity position="0 0 3.8">
       <a-camera></a-camera>
     </a-entity>
